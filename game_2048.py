@@ -1,7 +1,7 @@
 import time
 import random
 
-class game_2048():
+class Game_2048():
 
     def __init__(self):
         self.matrix = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],]
@@ -101,7 +101,7 @@ class game_2048():
 
 
 if __name__ == '__main__':
-    new_game = game_2048()
+    new_game = Game_2048()
     new_game.print_matrix()
 
     while new_game.is_not_end():
