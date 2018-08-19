@@ -7,4 +7,4 @@
   Use ascii art to represent an image.
 
 - email:
-  Include downloading email attachments.
+  Include downloading email attachments, sending email.
