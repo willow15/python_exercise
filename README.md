@@ -9,3 +9,6 @@
 - email:
   Include downloading email attachments, sending email(normal files and zipped files).  
   About sending zipped files: no idea why the attachment I received is a binary file which does not end with ".zip" no matter how I tried, but when I changed the name of file I downloaded to 'something.zip', it worked!! It's a zipped file now.
+
+- html_to_xlsx:
+  Transfer file format from html to xlsx.
