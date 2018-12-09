@@ -45,9 +45,3 @@ def transfer_html_to_xlsx(source_path, destination_path):
                         sheet.cell(row=nrow, column=ncol).value = get_content(td)
 
     book.save(destination_path)
-
-
-if __name__ == '__main__':
-    file_path = 'D:/icbc_report/2018-12-06/Outstanding CA Report_20181205.xls'
-    destination_path = 'D:/icbc_report/test.xlsx'
-    transfer_html_to_xlsx(file_path, destination_path)
